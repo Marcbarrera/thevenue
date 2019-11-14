@@ -14,13 +14,21 @@ function App() {
   return (
     <div className="App" style= {{height:"1500px",background:'white'}}>
       <Header/>
+      <Element name="Featured">
       <Featured/>
+      </Element>
+      <Element name="Venue_nfo">
       <VenueNfo/>
-      <Element name="highlights">
+      </Element>
+      <Element name="Highlights">
         <Highlight/>  
       </Element>
+      <Element name="Pricing">
       <Pricing/>
+      </Element>
+      <Element name="Location">
       <Location/>
+      </Element>
       <Footer/>
     </div>
   );
