@@ -10,7 +10,7 @@ const Featured = () => {
 
             <div className="artist_name">
                 <div className="wrapper">
-                    Ariana Grande
+                    Thom Yorke
                 </div>
             </div>
             <TimeCountDown/>
